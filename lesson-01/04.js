@@ -1,2 +1,9 @@
-let x = 5 + 3 *2 - 4 / 3
+let x = 5;
+x += 3;
+console.log(x)
+x *= 2;
+console.log(x)
+x -= 4;
+console.log(x)
+x /= 3;
 console.log(x)
