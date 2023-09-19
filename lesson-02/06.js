@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let passportWithAddressCopy = passportWithAddress
+let passportWithAddressCopy = {...passportWithAddress, address:city = "Bobryisk"}
 
-passportWithAddressCopy.address.city = "Bobryisk";
+console.log(passportWithAddress)
 console.log(passportWithAddressCopy)
