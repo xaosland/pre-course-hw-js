@@ -1,10 +1,5 @@
-let passport = {
-  name: "Petr",
-  surname: "Petrov",
-};
-
+let passport = { name: "Petr", surname: "Petrov" };
 console.log(passport);
-let passportCopy = Object.assign({}, passport);
-passportCopy.name = "Ivan";
 
+let passportCopy = {...passport, name: "Ivan", surname: "Petrov" };
 console.log(passportCopy);
