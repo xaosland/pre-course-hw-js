@@ -1,9 +1,13 @@
 let passport = {
     name: "Petr",
     surname: "Petrov",
-};
+    }
+    
+let passportCopy = {
+    ...passport,
+    name:"Ivan"
+}
 
-let passportCopy = passport
-passport.name = "Ivan";
-
-console.log(passportCopy)
+    console.log(passport)
+    console.log(passportCopy)
+    
