@@ -1,5 +1,5 @@
-let passport = { name: "Ivan", surname: "Petrov" };
+let passport = { name: "Petr", surname: "Petrov" };
 console.log(passport);
 
-let passportCopy = {...passport, name: "Petr", surname: "Petrov" };
+let passportCopy = {...passport, name: "Ivan"};
 console.log(passportCopy);
