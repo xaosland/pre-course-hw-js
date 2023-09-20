@@ -6,11 +6,9 @@ let passportWithAddress = {
     city: "LA",
   },
 };
+console.log(passportWithAddress.address.city);
 
-let passportWithAddressCopy = {
-  ...passportWithAddress,
-  address: (city = "Bobryisk"),
-};
+let passportWithAddressCopy = Object.assign({}, passportWithAddress);
+passportWithAddressCopy.address.city = "Bobryisk"
 
-console.log(passportWithAddress);
-console.log(passportWithAddressCopy);
+console.log(passportWithAddressCopy.address.city)
