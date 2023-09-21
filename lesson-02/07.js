@@ -7,8 +7,8 @@ let passportMarried = {
     }
 };
 
-let MarriedCopy = Object.assign(passportMarried,{married: true});
-
+let marriedCopy = { ...passportMarried} 
+marriedCopy.married = true;
+ 
 console.log(passportMarried); 
-console.log(MarriedCopy); 
-console.log(MarriedCopy.married);
+console.log(marriedCopy);
