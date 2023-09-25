@@ -30,7 +30,7 @@ const users3 = [
     address: "321 Hickory St",
   },
 ];
-
-const zzz = users3.map((user) => (user ? { ...user, isMarried: true } : user));
-
-console.log(zzz);
+const users4 = users3.map((user) =>
+  user ? { ...user, isMarried: true } : user
+);
+console.log(users4);
