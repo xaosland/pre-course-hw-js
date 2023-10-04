@@ -16,14 +16,12 @@ button {
 
 
 .clockCase {
-display: flex;
-justify-content: center;
-  /* ПОДКЛЮЧАЕМ ФЛЕКСЫ ПО ЦЕНТРУ */
+  display: flex;
+  justify-content: center;
 }
 
 
 .buttonCase {
   display: flex;
-justify-content: center;
-  /* ПОДКЛЮЧАЕМ ФЛЕКСЫ ПО ЦЕНТРУ */
+  justify-content: center;
 }
